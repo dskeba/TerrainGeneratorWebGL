@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>TwinStickRoguelite</title>
+	<title>RogueTraveler</title>
 	<style>
 		html,
 		body {
@@ -42,17 +42,17 @@
 
 <body>
 	<div id="gameContainer">
-		<canvas id="unity-canvas" data-pixel-art="true"></canvas>
-		<script src="Build/test4.loader.js"></script>
+		<canvas id="unity-canvas" data-pixel-art="false"></canvas>
+		<script src="Build/RogueTravelerWebGL.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/test4.data",
-				frameworkUrl: "Build/test4.framework.js",
-				codeUrl: "Build/test4.wasm",
+				dataUrl: "Build/RogueTravelerWebGL.data",
+				frameworkUrl: "Build/RogueTravelerWebGL.framework.js",
+				codeUrl: "Build/RogueTravelerWebGL.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "DefaultCompany",
-				productName: "TwinStickRoguelite",
+				productName: "RogueTraveler",
 				productVersion: "0.1",
 			};
 			var scaleToFit;
