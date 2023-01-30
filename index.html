@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>RogueGame</title>
+	<title>RogueSpace</title>
 	<style>
 		html,
 		body {
@@ -43,16 +43,16 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art="false"></canvas>
-		<script src="Build/rogue game webgl.loader.js"></script>
+		<script src="Build/rogue space webgl.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/rogue game webgl.data",
-				frameworkUrl: "Build/rogue game webgl.framework.js",
-				codeUrl: "Build/rogue game webgl.wasm",
+				dataUrl: "Build/rogue space webgl.data",
+				frameworkUrl: "Build/rogue space webgl.framework.js",
+				codeUrl: "Build/rogue space webgl.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "SkebaStudios",
-				productName: "RogueGame",
+				productName: "RogueSpace",
 				productVersion: "0.1",
 			};
 			var scaleToFit;
